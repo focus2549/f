@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - teerachot wongra</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="brand">
+        <div class="project">
+            <img src="img/1d35edad-42ba-4478-80d9-f501b9a98442.png" alt="โปรเจกต์ 1" class="proj-img" />
+        </div>
+        <div>
+          <h1>My Portfolio</h1>
+          <p class="subtitle"></p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#projects">ผลงาน</a>
+        <a href="#contact" class="primary">ติดต่อ</a>
+      </nav>
+    </header>
+
+    
+    <section class="hero" id="about">
+      <div class="hero-card intro">
+        <h2>สวัสดี ผมนาย <span class="accent">ธีรโชติ วงค์ลา</span></h2>
+        <p>เป็นนักออกแบบและพัฒนาเว็ปไซต์ UX/UI ใช้ภาษา HTML กับ CSS กำลังศึกษาพัฒนาตัวเอง ศึกษาอยู่ที่มหาวิทยาลัยศรีปทุม วิทยาเขตขอนแก่น ชั้นปีที่ 2</p>
+        <div class="cta">
+          <button class="btn btn-primary">ดูผลงาน</button>
+          <button class="btn btn-ghost">ติดต่อฉัน</button>
+        </div>
+      </div>
+
+      <div class="profile">
+        <img src="img/553545290_1468209770899030_4073954087918872657_n.jpg" alt="โปรไฟล์" class="avatar-img" />
+        <h3 class="name">ธีรโชติ วงค์ลา</h3>
+        <p class="meta">Frontend Developer</p>
+      </div>
+    </section>
+
+    
+    <section class="section" id="projects">
+      <h3>ผลงานโปรเจกต์</h3>
+      <div class="grid">
+        <a href="img/21.png" class="lightbox">
+          <div class="project">
+            <img src="img/21.png" alt="โปรเจกต์ 1" class="proj-img" />
+            <h4 class="proj-title">การสร้างและออกแบบ Website ด้วย HTML & CSS</h4>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    
+    <section class="section" id="skills">
+      <h3>ทักษะ</h3>
+      <div class="grid">
+        <a href="img/OIP.webp" class="lightbox">
+          <div class="project">
+            <img src="img/OIP.webp" alt="Canva" class="proj-img" />
+            <h4 class="proj-title">Canva</h4>
+          </div>
+        </a>
+
+        <a href="img/OIP html.webp" class="lightbox">
+          <div class="project">
+            <img src="img/OIP html.webp" alt="HTML" class="proj-img" />
+            <h4 class="proj-title">HTML</h4>
+          </div>
+        </a>
+
+        <a href="img/OIP (1).webp" class="lightbox">
+          <div class="project">
+            <img src="img/OIP (1).webp" alt="CSS" class="proj-img" />
+            <h4 class="proj-title">CSS</h4>
+          </div>
+        </a>
+      </div>
+    </section>
+
+   
+    <section class="section" id="contact">
+      <h3>ติดต่อฉัน</h3>
+      <div class="contact-card">
+        <input type="email" placeholder="กรอกอีเมลของคุณ..." />
+        <button class="btn btn-primary">ส่งข้อความ</button>
+      </div>
+
+      <h4>โซเชียลมีเดีย</h4>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/focuss.club" target="_blank" class="icon-wrapper fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/teerachot-wongla-a9293537b/" target="_blank" class="icon-wrapper li">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@gux_1781" target="_blank" class="icon-wrapper tk">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </section>
+
+    
+    <footer>
+      <p>© 2025 ธีรโชติ วงค์ลา | Portfolio teerachot wongra | email: teerachot wongra</p>
+    </footer>
+
+  </div>
+
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.1/simple-lightbox.min.js"></script>
+  <script>
+    const lightbox = new SimpleLightbox('.lightbox', {
+      captions: true,
+      captionsData: 'alt',
+      captionDelay: 250,
+    });
+  </script>
+</body>
+</html>
